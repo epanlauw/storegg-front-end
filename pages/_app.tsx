@@ -15,6 +15,7 @@ import '../styles/sign-up.css';
 import '../styles/utilities.css';
 import '../styles/transactions.css';
 import '../styles/transactions-detail.css';
+import '../styles/edit-profile.css';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
