@@ -14,6 +14,7 @@ import '../styles/sign-up-success.css';
 import '../styles/sign-up.css';
 import '../styles/utilities.css';
 import '../styles/transactions.css';
+import '../styles/transactions-detail.css';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
