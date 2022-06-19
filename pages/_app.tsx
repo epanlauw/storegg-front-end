@@ -13,6 +13,7 @@ import '../styles/sign-up-photo.css';
 import '../styles/sign-up-success.css';
 import '../styles/sign-up.css';
 import '../styles/utilities.css';
+import '../styles/transactions.css';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
