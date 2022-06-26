@@ -59,7 +59,8 @@
           "some": ["nesting", "id"]
         }
       }
-    ]
+    ],
+    "object-curly-newline": "off"
   },
   "settings": {
     "import/resolver": {
