@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 
 const TopUpForm = () => {
   return (
@@ -320,13 +320,14 @@ const TopUpForm = () => {
         />
       </div>
       <div className='d-sm-block d-flex flex-column w-100'>
-        <a
-          href='./checkout.html'
-          type='submit'
-          className='btn btn-submit rounded-pill fw-medium text-white border-0 text-lg'
-        >
-          Continue
-        </a>
+        <Link href='/checkout'>
+          <a
+            type='submit'
+            className='btn btn-submit rounded-pill fw-medium text-white border-0 text-lg'
+          >
+            Continue
+          </a>
+        </Link>
       </div>
     </form>
   );
